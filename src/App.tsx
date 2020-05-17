@@ -1,9 +1,11 @@
-import React from "react";
-import inui from "./Inui_Toko_body.png";
-import logo from "./logo.svg";
+import React, { useState } from "react";
+import inui from "./inui_default.png";
+import inuisummer from "./inui_summer.png";
 import "./App.css";
 
 function App() {
+  const arr = [inui, inuisummer];
+  const [idx, setIdx] = useState(0);
   return (
     <>
       <div className="App">
@@ -16,7 +18,18 @@ function App() {
       </div>
       <div className="App">
         <header className="App-header2">
-          <img src={inui} />
+          <div>
+            <button
+              onClick={() =>
+                setIdx((prevIdx) =>
+                  prevIdx + 1 < arr.length ? prevIdx + 1 : 0
+                )
+              }
+            >
+              立ち絵を切り替えたい
+            </button>
+          </div>
+          <img src={arr[idx]} style={{ height: 700, width: 400}} />
         </header>
       </div>
     </>
