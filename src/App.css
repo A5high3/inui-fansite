@@ -8,23 +8,44 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  /* background-color: #282c34; */
+  background-color: white;
   width: 100%;
-  text-align: 'center';
+  height: 100%;
+  text-align: "center";
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  margin-bottom: -2;
 }
 
 .App-header2 {
-  background-color: #9d3757;
+  padding-top: 20px;
+  background-color: white;
   min-height: 100vh;
   display: flex;
-  flex-direction: row;
+  justify-content: "center";
+  /* flex-direction: row; */
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
+  text-align: "center";
+  margin-right: 150px;
+  margin-left: 150px;
+}
+
+.App-header3 {
+  position: relative;
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  justify-content: "center";
+  /* flex-direction: row; */
+  text-align: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+  text-align: "center";
 }
 
 .App-link {
@@ -38,4 +59,34 @@
   position: absolute;
   border: solid;
   padding: 2%;
+}
+
+.caroucel {
+  background-color: #9d3757;
+}
+
+.ahabtn {
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  font-size: 50px;
+  width: 100;
+  height: 200;
+  left: 65%;
+  top: 30%;
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: #9d3757; /*ボタン色*/
+  color: #fff;
+  border-bottom: solid 4px #7e2c46;
+  border-radius: 5px;
+}
+
+.ahabtn:active {
+  /*ボタンを押したとき*/
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);/*下に動く*/
+  border-bottom: none;/*線を消す*/
 }
