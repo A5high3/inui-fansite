@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 // import { Carousel } from "react-responsive-carousel";
 import inui from "./inui_default.png";
 import inuisummer from "./inui_summer.png";
@@ -7,9 +7,12 @@ import inuiwinter from "./inui_winter.png";
 import inuiaha from "./inui_aha.png";
 // import Caroucel from "./carousel";
 import inuitop from "./top.png";
-import { Button, Row } from "reactstrap";
+import { Button } from "reactstrap";
 import useSound from "use-sound";
 import { Timeline } from "react-twitter-widgets";
+import Youtube from "react-youtube";
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "./App.css";
 
 const BoopButton = () => {
@@ -28,7 +31,7 @@ function App() {
       {/* トップヘッダ */}
       <div className="App">
         <div className="App-header">
-          <div className="Top-hashtag">#いぬいどんどんすきになる</div>
+          <div className="Top-hashtag" />
           <img src={inuitop} style={{ width: "100%", height: "100%" }} />
         </div>
       </div>
@@ -72,6 +75,52 @@ function App() {
           </div> */}
       </div>
 
+      {/* youtube */}
+      <div>
+        <div style={{ width: "100%", textAlign: "center", fontSize: 50 }}>
+          ▼▼▼ Y o u t u b e ▼▼▼
+        </div>
+        <div style={{ marginRight: 150, marginLeft: 150,marginBottom: 100}}>
+          <Carousel infiniteLoop={true} dynamicHeight={true}>
+            <div>
+              <Youtube
+                videoId="QzdsaXemBWM"
+                opts={{ height: "480", width: "640" }}
+              />
+            </div>
+            <div>
+              <Youtube
+                videoId="QLWczt8aBtk"
+                opts={{ height: "480", width: "640" }}
+              />
+            </div>
+            <div>
+              <Youtube
+                videoId="bgWpXcbmQDY"
+                opts={{ height: "480", width: "640" }}
+              />
+            </div>
+            <div>
+              <Youtube
+                videoId="2k8AIzE87Mo"
+                opts={{ height: "480", width: "640" }}
+              />
+            </div>
+            <div>
+              <Youtube
+                videoId="zokUrGt0iuc"
+                opts={{ height: "480", width: "640" }}
+              />
+            </div>
+            <div>
+              <Youtube
+                videoId="xYXGfzgjEoE"
+                opts={{ height: "480", width: "640" }}
+              />
+            </div>
+          </Carousel>
+        </div>
+      </div>
       {/* ｱﾊｧ↑ボタン */}
       <div>
         <div style={{ width: "100%", textAlign: "center", fontSize: 50 }}>
