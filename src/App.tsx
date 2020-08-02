@@ -23,11 +23,11 @@ function App() {
       {/* Twitter埋め込みセクション */}
       <EmbededTwitter />
 
-      {/* 注釈 */}
-      <Caution />
-
       {/* ｱﾊｧ↑ボタン */}
       <Bonus />
+
+      {/* 注釈 */}
+      <Caution />
     </>
   );
 }
