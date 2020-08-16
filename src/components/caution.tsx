@@ -20,7 +20,7 @@ export default function Caution() {
         <br />
         <br />
 
-        inuitoko_unofficial_fansite@gmail.com
+        inuitokounofficialfansite@gmail.com
         <br />
         <br />
         以上
