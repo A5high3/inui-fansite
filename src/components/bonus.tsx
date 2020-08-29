@@ -8,7 +8,11 @@ const BoopButton = () => {
   let aha = require("../assets/sounds/aha.mp3");
   const [play] = useSound(aha);
   return (
-    <Button className="ahabtn" onClick={() => play()}>
+    <Button
+      className="ahabtn"
+      style={{ cursor: "url(./bankencursol.png),auto" }}
+      onClick={() => play()}
+    >
       ｱﾊｧ↑~
     </Button>
   );
@@ -19,7 +23,9 @@ export default function Bonus() {
     <>
       {/* ｱﾊｧ↑ボタン */}
       <div style={{ width: "100%", textAlign: "center", fontSize: 50 }}>
-        <SectionHeader /> お ま け <SectionHeader />
+        <div style={{ color: " #7e2c46", fontFamily: "'M PLUS 1p'" }}>
+          <SectionHeader /> お ま け <SectionHeader />
+        </div>
       </div>
       <div className="App-header3">
         <BoopButton />

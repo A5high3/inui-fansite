@@ -1,14 +1,17 @@
 import React from "react";
 import inuitop from "./assets/images/top.png";
-import EmbededYoutube from "./components/embededYoutube";
+import EmbededYoutubeMusic from "./components/embededYoutubeMusic";
+import EmbededYoutubeYozuri from "./components/embededYoutubeYoduri";
+import EmbededYoutubeTalk from "./components/embededYoutubeTalk";
 import EmbededTwitter from "./components/embededTwitter";
 import Caution from "./components/caution";
 import Bonus from "./components/bonus";
 import "./App.css";
+import EmbededYoutubeGame from "./components/embededYoutubeGame"
 
 function App() {
   return (
-    <>
+    <body style={{ cursor: "url(./bankencursol.png),auto" }}>
       {/* トップヘッダ */}
       <div className="App">
         <div className="App-header">
@@ -18,7 +21,14 @@ function App() {
       </div>
 
       {/* youtube埋め込みセクション */}
-      <EmbededYoutube />
+      <EmbededYoutubeMusic />
+
+      {/* youtube埋め込みセクション */}
+      <EmbededYoutubeYozuri />
+
+      <EmbededYoutubeTalk />
+
+      <EmbededYoutubeGame />
 
       {/* Twitter埋め込みセクション */}
       <EmbededTwitter />
@@ -28,7 +38,7 @@ function App() {
 
       {/* 注釈 */}
       <Caution />
-    </>
+    </body>
   );
 }
 
