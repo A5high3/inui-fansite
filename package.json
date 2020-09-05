@@ -41,7 +41,9 @@
     ]
   },
   "devDependencies": {
+    "@types/react-responsive": "^8.0.2",
     "@types/react-youtube": "^7.6.2",
+    "react-responsive": "^8.1.0",
     "react-twitter-widgets": "^1.9.5",
     "react-youtube": "^7.11.3"
   }
