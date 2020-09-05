@@ -1,5 +1,6 @@
 import React from "react";
 import inuitop from "./assets/images/top.png";
+import Profile from "./components/profile";
 import EmbededYoutubeMusic from "./components/embededYoutubeMusic";
 import EmbededYoutubeYozuri from "./components/embededYoutubeYoduri";
 import EmbededYoutubeTalk from "./components/embededYoutubeTalk";
@@ -10,6 +11,8 @@ import Bonus from "./components/bonus";
 import MediaQuery from "react-responsive";
 import responsivetop from "./assets/images/responsivetop.jpeg";
 import "./App.css";
+
+
 
 function App() {
   return (
@@ -23,7 +26,8 @@ function App() {
               <img src={inuitop} style={{ width: "100%", height: "100%" }} />
             </div>
           </div>
-
+          {/* Profile 表示セクション */}
+          <Profile />
           {/* music埋め込みセクション */}
           <EmbededYoutubeMusic />
 
@@ -48,7 +52,7 @@ function App() {
       </MediaQuery>
       <MediaQuery minDeviceWidth={320} maxDeviceWidth={1023}>
         {/* <h1>入り待ち出待ち雪待</h1> */}
-        <div style={{width: "auto", height:"auto"}}>
+        <div style={{ width: "auto", height: "auto" }}>
           <div className="hogehoge">戌亥とこ非公式</div>
           <div className="hogehoge2">ふぁんさいと</div>
           <img src={responsivetop} />
