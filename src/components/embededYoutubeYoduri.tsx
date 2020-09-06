@@ -12,30 +12,30 @@ export default function EmbededYoutubeYozuri() {
           <SectionHeader /> Y o z u r i <SectionHeader />
         </div>
       </div>
-      <div style={{ marginRight: 150, marginLeft: 150, marginBottom:40 }}>
+      <div style={{ marginRight: 150, marginLeft: 150, marginBottom:100 }}>
         <Carousel infiniteLoop={true} dynamicHeight={true} showThumbs={false}>
           <div>
             <Youtube
               videoId="Y7jHkbmBFeI"
-              opts={{ height: "480", width: "640" }}
+              opts={{ height: "600", width: "760" }}
             />
           </div>
           <div>
             <Youtube
               videoId="KTp1ECYUuaM"
-              opts={{ height: "480", width: "640" }}
+              opts={{ height: "600", width: "760" }}
             />
           </div>
           <div>
             <Youtube
               videoId="kNgN_sXHg9o"
-              opts={{ height: "480", width: "640" }}
+              opts={{ height: "600", width: "760" }}
             />
           </div>
           <div>
             <Youtube
               videoId="8oEQM5L0xYM"
-              opts={{ height: "480", width: "640" }}
+              opts={{ height: "600", width: "760" }}
             />
           </div>
         </Carousel>

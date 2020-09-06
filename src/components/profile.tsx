@@ -14,7 +14,7 @@ export default function Profile() {
     <Container>
       <Row
         xs="2"
-        style={{ marginRight: 150, marginLeft: 150, marginBottom: 40 }}
+        style={{ marginRight: 150, marginLeft: 150, marginBottom: 100 }}
       >
         <div style={{ width: "100%", textAlign: "center", fontSize: 50 }}>
           <div style={{ color: " #7e2c46", fontFamily: "'M PLUS 1p'" }}>
@@ -25,7 +25,7 @@ export default function Profile() {
           <img
             src={arr[count]}
             onClick={() => setCount(count == 3 ? 0 : count + 1)}
-            style={{ marginLeft: 100, width: 500, height: 800 }}
+            style={{marginLeft:50, marginRight: 50, width: 500, height: 800,cursor: "url(./bankenfocus.png),auto"}}
           />
           <div
             style={{

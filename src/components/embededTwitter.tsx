@@ -25,18 +25,17 @@ export default function EmbededTwitter() {
             screenName: "inui_toko",
           }}
           options={{
-            height: "600",
-            width: "480",
+            height: "800",
+            width: "800",
           }}
         />
-        <div style={{ marginLeft: 50, fontFamily: "'M PLUS 1'", fontSize: 30 }}>
+        <div style={{ marginLeft: 100, fontFamily: "'M PLUS 1'", fontSize: 30 }}>
           <a href="https://nijisanji.ichikara.co.jp/member/toko-inui/">
             公式紹介ページ
           </a><br />
           <div style={{ fontSize: 18 }}>
             プロフィールにて引用させていただいた紹介文はこちらより引用いたしました。
           </div>
-          <br />
           <br />
           <a href="https://www.youtube.com/channel/UCXRlIK3Cw_TJIQC5kSJJQMg">
             Youtube
@@ -52,7 +51,6 @@ export default function EmbededTwitter() {
             メンバー限定の配信(歌配信・作業配信・雑談配信・晩酌配信)などを見ることができます。(※1リスナーに寄るダイマ)
           </div>
           <br />
-          <br />
           <a href="https://twitter.com/inui_toko">Twitter</a>
           <br />
           <div style={{ fontSize: 18 }}>
@@ -64,7 +62,6 @@ export default function EmbededTwitter() {
             <br />
             ボイス感想: #とこぼいす
           </div>
-          <br />
           <br />
           <a href="https://nijisanji.booth.pm/">にじさんじ公式boothページ</a>
           <br />

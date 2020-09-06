@@ -12,36 +12,36 @@ export default function EmbededYoutubeGame() {
           <SectionHeader /> G a m e <SectionHeader />
         </div>
       </div>
-      <div style={{ marginRight: 150, marginLeft: 150, marginBottom:40 }}>
+      <div style={{ marginRight: 150, marginLeft: 150, marginBottom:100 }}>
         <Carousel infiniteLoop={true} dynamicHeight={true} showThumbs={false}>
           <div>
             <Youtube
               videoId="v9qBRwo5moo"
-              opts={{ height: "480", width: "640" }}
+              opts={{ height: "600", width: "760" }}
             />
           </div>
           <div>
             <Youtube
               videoId="_Y3dOeofoCQ"
-              opts={{ height: "480", width: "640" }}
+              opts={{ height: "600", width: "760" }}
             />
           </div>
           <div>
             <Youtube
               videoId="yIhLQutwo4s"
-              opts={{ height: "480", width: "640" }}
+              opts={{ height: "600", width: "760" }}
             />
           </div>
           <div>
             <Youtube
               videoId="bqCjOBICjGw"
-              opts={{ height: "480", width: "640" }}
+              opts={{ height: "600", width: "760" }}
             />
           </div>
           <div>
             <Youtube
               videoId="QY_OSNl6s24"
-              opts={{ height: "480", width: "640" }}
+              opts={{ height: "600", width: "760" }}
             />
           </div>
         </Carousel>

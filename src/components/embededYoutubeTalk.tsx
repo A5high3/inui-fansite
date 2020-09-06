@@ -12,30 +12,30 @@ export default function EmbededYoutubeTalk() {
           <SectionHeader /> T a l k <SectionHeader />
         </div>
       </div>
-      <div style={{ marginRight: 150, marginLeft: 150, marginBottom:40 }}>
+      <div style={{ marginRight: 150, marginLeft: 150, marginBottom:100 }}>
         <Carousel infiniteLoop={true} dynamicHeight={true} showThumbs={false}>
           <div>
             <Youtube
               videoId="atTMl-FyQJk"
-              opts={{ height: "480", width: "640" }}
+              opts={{ height: "600", width: "760" }}
             />
           </div>
           <div>
             <Youtube
               videoId="0GpmjkRFbXI"
-              opts={{ height: "480", width: "640" }}
+              opts={{ height: "600", width: "760" }}
             />
           </div>
           <div>
             <Youtube
               videoId="tVY_DmHuw74"
-              opts={{ height: "480", width: "640" }}
+              opts={{ height: "600", width: "760" }}
             />
           </div>
           <div>
             <Youtube
               videoId="vnBNi2nbqX0"
-              opts={{ height: "480", width: "640" }}
+              opts={{ height: "600", width: "760" }}
             />
           </div>
         </Carousel>
