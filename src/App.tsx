@@ -12,8 +12,6 @@ import MediaQuery from "react-responsive";
 import responsivetop from "./assets/images/responsivetop.jpeg";
 import "./App.css";
 
-
-
 function App() {
   return (
     <>
@@ -45,10 +43,9 @@ function App() {
 
           {/* ｱﾊｧ↑ボタン */}
           <Bonus />
-
-          {/* 注釈 */}
-          <Caution />
         </body>
+        {/* 注釈 マウスカーソルを通常ものにするためbodyから省く */}
+        <Caution />
       </MediaQuery>
       <MediaQuery minDeviceWidth={320} maxDeviceWidth={1023}>
         {/* <h1>入り待ち出待ち雪待</h1> */}
