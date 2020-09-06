@@ -7,6 +7,8 @@ import EmbededYoutubeTalk from "./components/embededYoutubeTalk";
 import EmbededTwitter from "./components/embededTwitter";
 import EmbededYoutubeGame from "./components/embededYoutubeGame";
 import Caution from "./components/caution";
+import SpCaution from "./components/spCaution"
+import SpNotice from "./components/spNotice"
 import Bonus from "./components/bonus";
 import MediaQuery from "react-responsive";
 import responsivetop from "./assets/images/responsivetop.jpeg";
@@ -26,6 +28,7 @@ function App() {
           </div>
           {/* Profile 表示セクション */}
           <Profile />
+
           {/* music埋め込みセクション */}
           <EmbededYoutubeMusic />
 
@@ -44,15 +47,16 @@ function App() {
           {/* ｱﾊｧ↑ボタン */}
           <Bonus />
         </body>
-        {/* 注釈 マウスカーソルを通常ものにするためbodyから省く */}
+        {/* 注釈セクション マウスカーソルを通常ものにするためbodyから省く */}
         <Caution />
       </MediaQuery>
       <MediaQuery minDeviceWidth={320} maxDeviceWidth={1023}>
-        {/* <h1>入り待ち出待ち雪待</h1> */}
         <div style={{ width: "auto", height: "auto" }}>
           <div className="hogehoge">戌亥とこ非公式</div>
           <div className="hogehoge2">ふぁんさいと</div>
           <img src={responsivetop} />
+        <SpNotice />
+        <SpCaution />
         </div>
       </MediaQuery>
     </>
