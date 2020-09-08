@@ -29,10 +29,13 @@ export default function EmbededTwitter() {
             width: "800",
           }}
         />
-        <div style={{ marginLeft: 100, fontFamily: "'M PLUS 1'", fontSize: 30 }}>
+        <div
+          style={{ marginLeft: 100, fontFamily: "'M PLUS 1'", fontSize: 30 }}
+        >
           <a href="https://nijisanji.ichikara.co.jp/member/toko-inui/">
             公式紹介ページ
-          </a><br />
+          </a>
+          <br />
           <div style={{ fontSize: 18 }}>
             プロフィールにて引用させていただいた紹介文はこちらより引用いたしました。
           </div>
@@ -61,6 +64,17 @@ export default function EmbededTwitter() {
             配信: #いぬいどんどんすきになる
             <br />
             ボイス感想: #とこぼいす
+            <br />
+            お誕生日用ハッシュタグ: #ばーすでいぬい
+            <br />
+            <div style={{paddingTop: 10}}>
+              <a
+                href="https://twitter.com/share?text=戌亥とこ誕生日企画非公式ファンサイト%0A%0A"
+                data-size="large"
+                data-hashtags="ばーすでいぬい"
+                className="twitter-share-button"
+              />
+            </div>
           </div>
           <br />
           <a href="https://nijisanji.booth.pm/">にじさんじ公式boothページ</a>
