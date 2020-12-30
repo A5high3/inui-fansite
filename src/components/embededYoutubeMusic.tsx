@@ -16,6 +16,12 @@ export default function EmbededYoutubeMusic() {
         <Carousel infiniteLoop={true} dynamicHeight={true} showThumbs={false}>
           <div>
             <Youtube
+              videoId="XwZZeMNanKw"
+              opts={{ height: "600", width: "760" }}
+            />
+          </div>
+          <div>
+            <Youtube
               videoId="CT7tJZwWLdQ"
               opts={{ height: "600", width: "760" }}
             />

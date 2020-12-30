@@ -65,7 +65,7 @@ export default function EmbededTwitter() {
             <br />
             ボイス感想: #とこぼいす
             <br />
-            お誕生日用ハッシュタグ: #ばーすでいぬい
+            {/* お誕生日用ハッシュタグ: #ばーすでいぬい
             <br />
             <div style={{paddingTop: 10}}>
               <a
@@ -74,7 +74,7 @@ export default function EmbededTwitter() {
                 data-hashtags="ばーすでいぬい"
                 className="twitter-share-button"
               />
-            </div>
+            </div> */}
           </div>
           <br />
           <a href="https://nijisanji.booth.pm/">にじさんじ公式boothページ</a>
