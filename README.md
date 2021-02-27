@@ -1,44 +1,29 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# 戌亥とこ非公式ファンサイト
 
-In the project directory, you can run:
+このリポジトリは戌亥とこ非公式ファンサイト開発用のリポジトリとなります。  
+公開しているurlは下記の通りとなります。  
+https://inuito.co
 
-### `yarn start`
+## 開発のモチベーションについて
+2020年の誕生日企画として1人で開発して公開しましたが公開以降、  
+who i amやSitRリベンジ公演などを経て更なる活躍をされている戌亥さんに  
+ふさわしいファンサイトを本業の合間を縫って企画・開発することが困難だと考えるようになりました。  
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+この度リポジトリの公開を機に一緒に当非公式ファンサイトを開発していただける方を募集しております。  
+企画を考えたり、コード書いたり、デザインを考えたり、イラストを描いたり、当サイトへの貢献の仕方は問いません。  
+一緒に戌亥さんの非公式ファンサイトを作っていただけないでしょうか。  
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## 今後の開発方針について
+現在はReactでビルドした後にAWS S3Bucketへ静的ファイルを保存し公開という形をとっています。  
+経験年数は数年でまともなスキルがないまま見切り発車し、やっとのことで公開まで漕ぎ着けたものですので、  
+もしより良い環境や言語、開発方針などがありましたらどんどんご指摘いただければと思います。  
 
-### `yarn test`
+## 当サイトの位置付けに関して
+戌亥とこ非公式ファンサイトはその名の通り非公式です。公式からご指摘受けた際は即刻公開を取りやめるなどの措置を実施する必要があります。  
+幸いなことに公開から公式様からご指摘受けたことはありませんがその点はご承知のほどよろしくお願いいたします。  
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 連絡先
+Twitter: @7ashgray7  
+mail: 7ashgray7@gmail.com
