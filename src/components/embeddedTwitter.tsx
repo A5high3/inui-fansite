@@ -2,7 +2,7 @@ import React from "react";
 import { Timeline } from "react-twitter-widgets";
 import SectionHeader from "./sectionHeaderLine";
 
-export default function EmbededTwitter() {
+export default function EmbeddedTwitter() {
   return (
     <>
       <div style={{ width: "100%", textAlign: "center", fontSize: 50 }}>

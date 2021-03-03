@@ -4,7 +4,7 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import SectionHeader from "./sectionHeaderLine";
 
-export default function EmbededYoutubeYozuri() {
+export default function EmbeddedYoutubeYoduri() {
   return (
     <>
       <div style={{ width: "100%", textAlign: "center", fontSize: 50 }}>
