@@ -4,61 +4,37 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import SectionHeader from "./sectionHeaderLine";
 
-export default function EmbededYoutubeMusic() {
+export default function EmbeddedYoutubeTalk() {
   return (
     <>
       <div style={{ width: "100%", textAlign: "center", fontSize: 50 }}>
         <div style={{ color: " #7e2c46", fontFamily: "'M PLUS 1p'" }}>
-          <SectionHeader /> M u s i c <SectionHeader />
+          <SectionHeader /> T a l k <SectionHeader />
         </div>
       </div>
-      <div style={{ marginRight: 150, marginLeft: 150, marginBottom: 100 }}>
+      <div style={{ marginRight: 150, marginLeft: 150, marginBottom:100 }}>
         <Carousel infiniteLoop={true} dynamicHeight={true} showThumbs={false}>
           <div>
             <Youtube
-              videoId="XwZZeMNanKw"
+              videoId="atTMl-FyQJk"
               opts={{ height: "600", width: "760" }}
             />
           </div>
           <div>
             <Youtube
-              videoId="CT7tJZwWLdQ"
+              videoId="0GpmjkRFbXI"
               opts={{ height: "600", width: "760" }}
             />
           </div>
           <div>
             <Youtube
-              videoId="QzdsaXemBWM"
+              videoId="tVY_DmHuw74"
               opts={{ height: "600", width: "760" }}
             />
           </div>
           <div>
             <Youtube
-              videoId="QLWczt8aBtk"
-              opts={{ height: "600", width: "760" }}
-            />
-          </div>
-          <div>
-            <Youtube
-              videoId="bgWpXcbmQDY"
-              opts={{ height: "600", width: "760" }}
-            />
-          </div>
-          <div>
-            <Youtube
-              videoId="2k8AIzE87Mo"
-              opts={{ height: "600", width: "760" }}
-            />
-          </div>
-          <div>
-            <Youtube
-              videoId="zokUrGt0iuc"
-              opts={{ height: "600", width: "760" }}
-            />
-          </div>
-          <div>
-            <Youtube
-              videoId="xYXGfzgjEoE"
+              videoId="vnBNi2nbqX0"
               opts={{ height: "600", width: "760" }}
             />
           </div>

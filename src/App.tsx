@@ -1,11 +1,11 @@
 import React from "react";
 import inuitop from "./assets/images/top.png";
 import Profile from "./components/profile";
-import EmbededYoutubeMusic from "./components/embededYoutubeMusic";
-import EmbededYoutubeYozuri from "./components/embededYoutubeYoduri";
-import EmbededYoutubeTalk from "./components/embededYoutubeTalk";
-import EmbededTwitter from "./components/embededTwitter";
-import EmbededYoutubeGame from "./components/embededYoutubeGame";
+import EmbeddedYoutubeMusic from "./components/embeddedYoutubeMusic";
+import EmbeddedYoutubeYozuri from "./components/embeddedYoutubeYoduri";
+import EmbeddedYoutubeTalk from "./components/embeddedYoutubeTalk";
+import EmbeddedTwitter from "./components/embeddedTwitter";
+import EmbeddedYoutubeGame from "./components/embeddedYoutubeGame";
 import Caution from "./components/caution";
 import SpCaution from "./components/spCaution"
 import SpNotice from "./components/spNotice"
@@ -30,19 +30,19 @@ function App() {
           <Profile />
 
           {/* music埋め込みセクション */}
-          <EmbededYoutubeMusic />
+          <EmbeddedYoutubeMusic />
 
           {/* 夜釣り埋め込みセクション */}
-          <EmbededYoutubeYozuri />
+          <EmbeddedYoutubeYozuri />
 
           {/* 雑談埋め込みセクション */}
-          <EmbededYoutubeTalk />
+          <EmbeddedYoutubeTalk />
 
           {/* ゲーム埋め込みセクション */}
-          <EmbededYoutubeGame />
+          <EmbeddedYoutubeGame />
 
           {/* Twitter埋め込みセクション */}
-          <EmbededTwitter />
+          <EmbeddedTwitter />
 
           {/* ｱﾊｧ↑ボタン */}
           <Bonus />
