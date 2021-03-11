@@ -24,8 +24,9 @@ export default function Profile() {
         <div style={{ display: "flex", flexDirection: "row" }}>
           <img
             src={arr[count]}
-            onClick={() => setCount(count == 3 ? 0 : count + 1)}
+            onClick={() => setCount(count === 3 ? 0 : count + 1)}
             style={{marginLeft:50, marginRight: 50, width: 500, height: 800,cursor: "url(./bankenfocus.png),auto"}}
+            alt="戌亥とこ"
           />
           <div
             style={{

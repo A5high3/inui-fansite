@@ -29,7 +29,7 @@ export default function Bonus() {
       </div>
       <div className="App-header3">
         <BoopButton />
-        <img src={inuiaha} style={{ width: "100%", height: "100%" }}></img>
+        <img src={inuiaha} style={{width: "100%", height: "100%"}} alt="戌亥「アハァー↑」"/>
       </div>
     </>
   );
