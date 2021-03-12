@@ -6,9 +6,9 @@ import meloncream from "../assets/images/meloncreamsoda.gif";
 export default function SectionHeaderLine() {
   return (
     <>
-      <img src={peach} style={{ width: 50, height: 50 }} />
-      <img src={lemon} style={{ width: 50, height: 50 }} />
-      <img src={meloncream} style={{ width: 50, height: 50 }} />
+      <img src={peach} style={{ width: 50, height: 50 }} alt="桃色のソーダ" />
+      <img src={lemon} style={{ width: 50, height: 50 }} alt="レモン色のソーダ" />
+      <img src={meloncream} style={{ width: 50, height: 50 }} alt="メロンクリームソーダ" />
     </>
   );
 }

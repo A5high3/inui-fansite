@@ -23,7 +23,7 @@ function App() {
           <div className="App">
             <div className="App-header">
               <div className="Top-hashtag" />
-              <img src={inuitop} style={{ width: "100%", height: "100%" }} />
+              <img src={inuitop} style={{ width: "100%", height: "100%" }} alt="トップ画像" />
             </div>
           </div>
           {/* Profile 表示セクション */}
@@ -54,7 +54,7 @@ function App() {
         <div style={{ width: "auto", height: "auto" }}>
           <div className="hogehoge">戌亥とこ非公式</div>
           <div className="hogehoge2">ふぁんさいと</div>
-          <img src={responsivetop} />
+          <img src={responsivetop} alt="トップ画像"/>
         <SpNotice />
         <SpCaution />
         </div>
