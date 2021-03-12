@@ -23,7 +23,12 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "eslint": "eslint --ignore-path .gitignore \"src/**/*.{js,jsx,ts,tsx}\"",
+    "eslint:fix": "eslint --ignore-path .gitignore \"src/**/*.{js,jsx,ts,tsx}\" --fix",
+    "stylelint": "stylelint --ignore-path .gitignore \"src/**/*.{css,scss}\"",
+    "stylelint:fix": "stylelint --ignore-path .gitignore \"src/**/*.{css,scss}\" --fix",
+    "format": "prettier --write \"./**/*.ts\" \"./**/*.tsx\""
   },
   "eslintConfig": {
     "extends": "react-app"
