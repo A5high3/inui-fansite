@@ -21,7 +21,7 @@ jobs:
           node-version: 14
       - uses: actions/cache@v2
         with:
-          path: ${{ steps.yarn-cache.outputs.dir }}
+          path: ~/.yarn
           key: ${{ runner.os }}-${{ hashFiles('**/yarn.lock') }}
           restore-keys: ${{ runner.os }}-
       - run: yarn install --frozen-lockfile
