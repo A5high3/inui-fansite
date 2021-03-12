@@ -4,7 +4,7 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import SectionHeader from "./sectionHeaderLine";
 
-export default function EmbededYoutubeGame() {
+export default function EmbeddedYoutubeGame() {
   return (
     <>
       <div style={{ width: "100%", textAlign: "center", fontSize: 50 }}>
