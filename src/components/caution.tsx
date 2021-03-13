@@ -1,13 +1,13 @@
-import React from "react";
+import React from 'react';
 
-export default function Caution() {
+export default function Caution(): JSX.Element {
   return (
     <div className="App-header2">
       <div>
         <div
           style={{
-            width: "100%",
-            textAlign: "center",
+            width: '100%',
+            textAlign: 'center',
             fontSize: 50,
           }}
         >

@@ -1,12 +1,12 @@
-import React from "react";
+import React from 'react';
 
-export default function SpCaution() {
+export default function SpCaution(): JSX.Element {
   return (
-    <div style={{marginRight: 25,marginLeft: 25}}>
+    <div style={{ marginRight: 25, marginLeft: 25 }}>
       <div
         style={{
-          width: "auto",
-          textAlign: "center",
+          width: 'auto',
+          textAlign: 'center',
           fontSize: 22,
         }}
       >

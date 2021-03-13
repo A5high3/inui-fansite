@@ -1,31 +1,33 @@
-import React, { useState } from "react";
-import inuidefault from "../assets/images/inui_default.png";
-import inuisummer from "../assets/images/inui_summer.png";
-import inuispring from "../assets/images/inui_spring.png";
-import inuiwinter from "../assets/images/inui_winter.png";
-import SectionHeader from "./sectionHeaderLine";
-import { Container, Row } from "reactstrap";
-
+import React, { useState } from 'react';
+import inuidefault from '../assets/images/inui_default.png';
+import inuisummer from '../assets/images/inui_summer.png';
+import inuispring from '../assets/images/inui_spring.png';
+import inuiwinter from '../assets/images/inui_winter.png';
+import SectionHeader from './sectionHeaderLine';
+import { Container, Row } from 'reactstrap';
 
 const arr = [inuidefault, inuisummer, inuispring, inuiwinter];
-export default function Profile() {
+export default function Profile(): JSX.Element {
   const [count, setCount] = useState(0);
   return (
     <Container>
-      <Row
-        xs="2"
-        style={{ marginRight: 150, marginLeft: 150, marginBottom: 100 }}
-      >
-        <div style={{ width: "100%", textAlign: "center", fontSize: 50 }}>
-          <div style={{ color: " #7e2c46", fontFamily: "'M PLUS 1p'" }}>
+      <Row xs="2" style={{ marginRight: 150, marginLeft: 150, marginBottom: 100 }}>
+        <div style={{ width: '100%', textAlign: 'center', fontSize: 50 }}>
+          <div style={{ color: ' #7e2c46', fontFamily: "'M PLUS 1p'" }}>
             <SectionHeader /> P r o f i l e <SectionHeader />
           </div>
         </div>
-        <div style={{ display: "flex", flexDirection: "row" }}>
+        <div style={{ display: 'flex', flexDirection: 'row' }}>
           <img
             src={arr[count]}
             onClick={() => setCount(count === 3 ? 0 : count + 1)}
-            style={{marginLeft:50, marginRight: 50, width: 500, height: 800,cursor: "url(./bankenfocus.png),auto"}}
+            style={{
+              marginLeft: 50,
+              marginRight: 50,
+              width: 500,
+              height: 800,
+              cursor: 'url(./bankenfocus.png),auto',
+            }}
             alt="戌亥とこ"
           />
           <div

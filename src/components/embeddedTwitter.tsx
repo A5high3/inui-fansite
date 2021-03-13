@@ -1,48 +1,42 @@
-import React from "react";
-import { Timeline } from "react-twitter-widgets";
-import SectionHeader from "./sectionHeaderLine";
+import React from 'react';
+import { Timeline } from 'react-twitter-widgets';
+import SectionHeader from './sectionHeaderLine';
 
-export default function EmbeddedTwitter() {
+export default function EmbeddedTwitter(): JSX.Element {
   return (
     <>
-      <div style={{ width: "100%", textAlign: "center", fontSize: 50 }}>
-        <div style={{ color: " #7e2c46", fontFamily: "'M PLUS 1p'" }}>
+      <div style={{ width: '100%', textAlign: 'center', fontSize: 50 }}>
+        <div style={{ color: ' #7e2c46', fontFamily: "'M PLUS 1p'" }}>
           <SectionHeader /> T w i t t e r & L i n k s <SectionHeader />
         </div>
       </div>
       <div
         style={{
-          marginLeft: "20%",
-          marginRight: "20%",
+          marginLeft: '20%',
+          marginRight: '20%',
           marginBottom: 40,
-          display: "flex",
-          flexDirection: "row",
+          display: 'flex',
+          flexDirection: 'row',
         }}
       >
         <Timeline
           dataSource={{
-            sourceType: "profile",
-            screenName: "inui_toko",
+            sourceType: 'profile',
+            screenName: 'inui_toko',
           }}
           options={{
-            height: "800",
-            width: "800",
+            height: '800',
+            width: '800',
           }}
         />
-        <div
-          style={{ marginLeft: 100, fontFamily: "'M PLUS 1'", fontSize: 30 }}
-        >
-          <a href="https://nijisanji.ichikara.co.jp/member/toko-inui/">
-            公式紹介ページ
-          </a>
+        <div style={{ marginLeft: 100, fontFamily: "'M PLUS 1'", fontSize: 30 }}>
+          <a href="https://nijisanji.ichikara.co.jp/member/toko-inui/">公式紹介ページ</a>
           <br />
           <div style={{ fontSize: 18 }}>
             プロフィールにて引用させていただいた紹介文はこちらより引用いたしました。
           </div>
           <br />
-          <a href="https://www.youtube.com/channel/UCXRlIK3Cw_TJIQC5kSJJQMg">
-            Youtube
-          </a>
+          <a href="https://www.youtube.com/channel/UCXRlIK3Cw_TJIQC5kSJJQMg">Youtube</a>
           <br />
           <div style={{ fontSize: 18 }}>
             ※メンバーについて
