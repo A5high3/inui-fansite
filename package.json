@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@react-three/drei": "^7.0.2",
+    "@react-three/fiber": "^7.0.1",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
@@ -11,12 +13,15 @@
     "@types/react": "^16.9.0",
     "@types/react-dom": "^16.9.0",
     "@types/reactstrap": "^8.5.0",
+    "@types/three": "^0.129.1",
+    "ammo.js": "kripken/ammo.js",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-responsive-carousel": "^3.2.7",
     "react-scripts": "^3.4.1",
     "reactstrap": "^8.5.1",
-    "typescript": "^3.7.2",
+    "three": "^0.125.2",
+    "typescript": "^4.3.4",
     "use-sound": "^1.0.2"
   },
   "scripts": {

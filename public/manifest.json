@@ -2,21 +2,7 @@
   "short_name": "戌亥とこ非公式ファンサイト",
   "name": "にじさんじ公式つよつよケルベロス非公式ファンサイト",
   "icons": [
-    {
-      "src": "banken.png",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
-    },
-    {
-      "src": "banken.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "banken.png",
-      "type": "image/png",
-      "sizes": "512x512"
-    }
+
   ],
   "start_url": ".",
   "display": "standalone",
