@@ -1,4 +1,3 @@
-import React from 'react';
 import peach from '../assets/images/peachsoda.gif';
 import lemon from '../assets/images/lemonsoda.gif';
 import meloncream from '../assets/images/meloncreamsoda.gif';

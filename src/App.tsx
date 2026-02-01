@@ -1,4 +1,3 @@
-import React from 'react';
 import inuitop from './assets/images/top.png';
 import Profile from './components/profile';
 import EmbeddedYoutubeMusic from './components/embeddedYoutubeMusic';

@@ -1,5 +1,3 @@
-import React from 'react';
-
 export default function SpNotice(): JSX.Element {
   return (
     <div style={{ marginRight: 25, marginLeft: 25, marginBottom: 50 }}>

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import inuidefault from '../assets/images/inui_default.png';
 import inuisummer from '../assets/images/inui_summer.png';
 import inuispring from '../assets/images/inui_spring.png';

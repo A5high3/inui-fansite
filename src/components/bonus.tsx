@@ -1,4 +1,3 @@
-import React from 'react';
 import { Button } from 'reactstrap';
 import useSound from 'use-sound';
 import inuiaha from '../assets/images/inui_aha.png';

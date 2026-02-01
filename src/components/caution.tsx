@@ -1,5 +1,3 @@
-import React from 'react';
-
 export default function Caution(): JSX.Element {
   return (
     <div className="App-header2">
