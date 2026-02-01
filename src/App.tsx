@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import inuitop from './assets/images/top.png';
 import Profile from './components/profile';
 import EmbeddedYoutubeMusic from './components/embeddedYoutubeMusic';
@@ -11,9 +12,38 @@ import SpNotice from './components/spNotice';
 import Bonus from './components/bonus';
 import MediaQuery from 'react-responsive';
 import responsivetop from './assets/images/responsivetop.jpeg';
+import ThreeScene from './three/ThreeScene';
 import './App.css';
 
 function App(): JSX.Element {
+  const [showThree, setShowThree] = useState(false);
+
+  // Three.js動作確認モード
+  if (showThree) {
+    return (
+      <>
+        <ThreeScene />
+        <button
+          onClick={() => setShowThree(false)}
+          style={{
+            position: 'absolute',
+            bottom: 20,
+            right: 20,
+            padding: '10px 20px',
+            fontSize: 16,
+            cursor: 'pointer',
+            background: '#7e2c46',
+            color: 'white',
+            border: 'none',
+            borderRadius: 8,
+          }}
+        >
+          ファンサイトに戻る
+        </button>
+      </>
+    );
+  }
+
   return (
     <>
       <MediaQuery minDeviceWidth={1024}>
@@ -48,6 +78,25 @@ function App(): JSX.Element {
         </body>
         {/* 注釈セクション マウスカーソルを通常ものにするためbodyから省く */}
         <Caution />
+        {/* Three.js動作確認ボタン */}
+        <button
+          onClick={() => setShowThree(true)}
+          style={{
+            position: 'fixed',
+            bottom: 20,
+            right: 20,
+            padding: '10px 20px',
+            fontSize: 14,
+            cursor: 'pointer',
+            background: '#7e2c46',
+            color: 'white',
+            border: 'none',
+            borderRadius: 8,
+            zIndex: 1000,
+          }}
+        >
+          Three.js テスト
+        </button>
       </MediaQuery>
       <MediaQuery minDeviceWidth={320} maxDeviceWidth={1023}>
         <div style={{ width: 'auto', height: 'auto' }}>
